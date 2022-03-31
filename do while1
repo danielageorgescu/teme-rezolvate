@@ -1,0 +1,24 @@
+package com.itfactory; 
+ 
+import java.util.Scanner; 
+ 
+public class Main 
+{ 
+    /** 
+    * Se se implementeze un program in care se citeste un numar de la tastatura pana la introducerea numarului 0. 
+    * Fiecare numar citit se va afisa sub forma: S-a citit numarul <x> 
+    */ 
+    public static void main(String[] args)  
+   { 
+        Scanner scanner = new Scanner(System.in); 
+        int x = Integer.parseInt(scanner.nextLine()); 
+        int y; 
+        System.out.println("S-a citit numarul " + x); 
+ 
+        do { 
+            y = Integer.parseInt(scanner.nextLine()); 
+            System.out.println("S-a citit numarul " + y); 
+        } while (y != 0); 
+ 
+    } 
+} 
