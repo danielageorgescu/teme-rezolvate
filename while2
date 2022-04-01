@@ -1,0 +1,20 @@
+package com.itfactory;
+
+import java.util.Random;
+
+public class Main{
+    /**
+     * Se se genereze numere intr-o bucla, intre 0 si 100 pana cand numarul este mai mic decat 50
+     * @param args
+     */
+    public static void main(String[] args)
+    {
+        Random random = new Random();
+        int randomInt = random.nextInt(101);
+        while (randomInt < 50)
+        {
+            System.out.println(randomInt);
+            randomInt++;
+        }
+    }
+}
