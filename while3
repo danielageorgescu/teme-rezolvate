@@ -1,0 +1,19 @@
+package com.itfactory;
+
+public class Main
+{
+    /**
+     * Se da un numar x = 1.
+     * Se se incrementeze numarul x pana cand acesta depaseste 5.
+     * @param args
+     */
+    public static void main(String[] args)
+    {
+        int x = 1;
+        while(x <= 6)
+        {
+            System.out.println(x);
+            x++;
+        }
+    }
+}
