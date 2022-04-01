@@ -1,0 +1,22 @@
+package com.itfactory;
+
+import java.util.Scanner;
+
+public class Main
+{
+    /**
+     * Se citeste un numar de la tastatura. Sa se afiseze un mesaj afirmativ daca numarul este mai mare ca 10
+     * In caz contrar se va afisa un mesaj negativ.
+     * @param args
+     */
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        int i = Integer.parseInt(scanner.nextLine());
+        if ( i > 10) {
+            System.out.println("Mesaj afirmativ");
+        }else{
+            System.out.println("Mesaj negativ");
+        }
+    }
+}
